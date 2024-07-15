@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Allcalculator.Tools</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        width: 300px;
+        padding: 20px;
+        background-color: #f9f9f9;
+      }
+      h1 {
+        text-align: center;
+        font-size: 24px;
+        color: #333;
+      }
+      .search-bar {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .search-input {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        margin: 10px 0;
+      }
+      a {
+        text-decoration: none;
+        color: #007BFF;
+        font-weight: bold;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .icon {
+        display: block;
+        margin: 0 auto 20px;
+        width: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="icon.png" alt="Icon" class="icon">
+    <h1>Allcalculator.Tools</h1>
+    <div class="search-bar">
+      <input type="text" id="search-input" class="search-input" placeholder="Search calculators...">
+    </div>
+    <ul id="calculator-list"></ul>
+    <script src="popup.js"></script>
+  </body>
+</html>
